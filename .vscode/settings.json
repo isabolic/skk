@@ -1,0 +1,14 @@
+{
+    "files.exclude": {
+        "**/node_modules/**": true,
+        "dist/**": true
+    },
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "extensions.ignoreRecommendations": true,
+    "files.autoSave": "off",
+    "typescript.tsc.autoDetect": "off",
+    "npm.autoDetect": "off",
+    "debug.allowBreakpointsEverywhere": true,
+    "html.autoClosingTags": false,
+}

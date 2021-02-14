@@ -32,7 +32,7 @@ Then, run Nest as usual:
 ## Note
 App looks JWT bearer token in an authorization header
 
-## public api (not JWT token required)
+## public api (no JWT token required)
 (POST)  /api/user/register
 
 (POST)  /api/auth/login

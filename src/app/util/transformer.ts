@@ -16,7 +16,9 @@ const classToPlainOpts: ClassTransformOptions = {
 
 class Transformer {
   public static plainToClass(cls: ClassConstructor<any>, plain: JSON) {
-    return plainToClass(cls, plain, plainToClassOpts);
+    // lose reference to ObjectId of mongoDb
+    const data = JSON.parse(JSON.stringify(plain));
+    return plainToClass(cls, data, plainToClassOpts);
   }
 
   public static classToPlain(cls: ClassConstructor<any>) {

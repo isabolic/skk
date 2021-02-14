@@ -1,0 +1,348 @@
+{
+	"info": {
+		"_postman_id": "3e87d022-bebd-49a0-8da4-af8db126757b",
+		"name": "skk",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ticket",
+			"item": [
+				{
+					"name": "ticket - details",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5050/api/ticket/details",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5050",
+							"path": [
+								"api",
+								"ticket",
+								"details"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "buy ticket",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"ticketNo\": \"TICKET_NO\",\n    \"userId\": \"USER_ID\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5050/api/ticket/buy",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5050",
+							"path": [
+								"api",
+								"ticket",
+								"buy"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ticket",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5050/api/ticket/xxx",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5050",
+							"path": [
+								"api",
+								"ticket",
+								"xxx"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tickets",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5050/api/ticket",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5050",
+							"path": [
+								"api",
+								"ticket"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "user",
+			"item": [
+				{
+					"name": "users",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5050/api/user",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5050",
+							"path": [
+								"api",
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "register user",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"username\": \"isabolic2\",\n  \"email\": \"ivan.sabolic2@gmail.com\",\n  \"password\": \"xxx\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5050/api/user/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5050",
+							"path": [
+								"api",
+								"user",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "user",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5050/api/user/xxx",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5050",
+							"path": [
+								"api",
+								"user",
+								"xxx"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "term",
+			"item": [
+				{
+					"name": "terms",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5050/api/term",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5050",
+							"path": [
+								"api",
+								"term"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "term",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5050/api/term/xxx",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5050",
+							"path": [
+								"api",
+								"term",
+								"xxx"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "carter",
+			"item": [
+				{
+					"name": "carters",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5050/api/carter/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5050",
+							"path": [
+								"api",
+								"carter",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "carter",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5050/api/carter/xxx",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5050",
+							"path": [
+								"api",
+								"carter",
+								"xxx"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "carter-terms",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MDI5MWE2Nzg2ODFhOTE0YTg5OTJhOGEiLCJpYXQiOjE2MTMzMzk0OTQsImV4cCI6MTYxMzM0MzA5NH0.ax7Y58PULn92Mb2K8pkzrv7cH2bs4CIcBVKTAE7N3nE",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5050/api/carter/carter-term/xxx",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5050",
+							"path": [
+								"api",
+								"carter",
+								"carter-term",
+								"xxx"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "auth",
+			"item": [
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"username\": \"admin\",\n\t\"password\": \"password\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5050/api/auth/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5050",
+							"path": [
+								"api",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

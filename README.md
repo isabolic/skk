@@ -14,8 +14,6 @@ After running the sample, you can stop the Docker container with
 
 ### Run migrations
 
-Then, run Nest as usual:
-
 `yarn migrate:up`
 ### Run the sample
 
@@ -24,8 +22,6 @@ Then, run Nest as usual:
 `yarn start`
 
 ### Clear DB
-
-Then, run Nest as usual:
 
 `yarn migrate:down`
 

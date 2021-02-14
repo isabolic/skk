@@ -10,6 +10,7 @@ import { UserService } from './user.service';
   ],
   controllers: [UserController],
   providers: [UserService],
+  exports: [UserService],
 })
 class UserModule {
   constructor(private userService: UserService) {}

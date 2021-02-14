@@ -3,12 +3,12 @@ import { Document } from 'mongoose';
 
 type UserDocument = User & Document;
 
-@Schema()
+@Schema({ collection: 'user' })
 class User {
-  @Prop({ unique: true })
+  @Prop({ unique: true, required: true })
   username: string;
 
-  @Prop({ unique: true })
+  @Prop({ unique: true, required: true })
   email: string;
 
   @Prop()

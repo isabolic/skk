@@ -6,7 +6,6 @@ class RegisterUserDto {
   @MaxLength(20)
   readonly username: string;
 
-  @IsString()
   @IsEmail()
   @IsNotEmpty()
   @MaxLength(50)

@@ -9,8 +9,7 @@ class TicketDto {
   id: string;
 
   @Expose()
-  @Default(null)
-  ticketNo: string | null;
+  ticketNo: string;
 
   @Expose()
   @Type(() => UserDto)

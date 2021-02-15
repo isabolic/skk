@@ -17,10 +17,6 @@ class TicketDto {
   user: UserDto | null;
 
   @Expose()
-  @Type(() => CarterDto)
-  carter: CarterDto;
-
-  @Expose()
   @Type(() => TermDto)
   term: TermDto;
 }
